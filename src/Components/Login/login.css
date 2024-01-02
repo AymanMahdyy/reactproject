@@ -1,0 +1,125 @@
+/* *{
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+} */
+
+
+.bod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../../Images/Fr.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.main-box{
+    letter-spacing: 2px;
+    width: 570px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 20px;
+    padding: 95px 40px;
+    background: transparent;
+    border: 2px solid rgb(77, 77, 77);
+    backdrop-filter: blur(14px);
+
+}
+
+.main-box h1{
+    font-size: 50px;
+    color: rgb(151, 206, 239);
+    text-align: center;
+}
+.main-box h1 span{  
+    color: #0e68c8;
+}
+
+
+.main-box .input-box{
+    background: transparent;
+    border: 1px solid rgb(136, 136, 136);
+    margin: 20px 0;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    padding-right: 15px;
+
+}
+.main-box .input-box input::placeholder{
+    color: white;
+    letter-spacing: 2px;
+
+}
+
+.main-box .input-box i{
+    color: rgb(151, 206, 239);
+}
+
+
+.main-box .input-box input{
+    width: 95%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: transparent;
+    padding: 20px;
+    font-size: 18px;
+    color: rgb(151, 206, 239);
+}
+.main-box .checkbox{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    accent-color: rgb(151, 206, 239);
+}
+.main-box .checkbox a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 4px;
+    margin-right: 3px;
+
+}
+.main-box a:hover{
+    border-bottom: 2px solid rgb(151, 206, 239);
+}
+
+.main-box .btn input{
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    background-color:  #2677b5;
+    border: none;
+    outline: none;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.main-box .footer{
+    margin-top: 35px;
+    color: rgb(209, 209, 209);
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-box .footer a{
+    color: rgb(209, 209, 209);
+    text-decoration: none;
+    cursor: pointer;
+    padding: 4px;
+}

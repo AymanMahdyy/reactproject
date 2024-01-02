@@ -1,0 +1,104 @@
+.bgg{
+    min-height: 88vh;
+    background-image: url(../../Images/dark.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardss {
+    margin: 100px auto;
+    padding-top: 20px;
+    width: 65%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 36, 36);
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(8, 7, 8, 80%);
+    background: transparent;
+    backdrop-filter: blur(7px);
+}
+
+.contentt {
+    width: 100%;
+    padding: 35px 20px;
+    
+}
+
+.cardd {
+    background-color: rgb(8, 8, 8);
+    width: 65%;
+    height:600px ;
+    box-shadow: 0 5px 25px rgba(4 3 4 / 85%);
+    border-radius: 10px;
+    padding: 29px 20px;
+    background: transparent;
+    margin: 15px auto;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+
+.cardd:hover {
+    transform: scale(0.95);
+    
+}
+
+.cardd img {
+    width: 500px;
+    height: 250px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(56, 56, 56);
+    border-radius: 10px;
+}
+
+.infoo {
+    text-align: center;
+}
+
+.infoo h3{
+    color: #f9cf12;
+    letter-spacing: 2px;
+    font-size: 27px;
+    font-weight: bold;
+    margin: 10px;
+
+}
+.infoo h4{
+    color: #bbbbbb;
+    letter-spacing: 1px;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 10px;
+    letter-spacing: 2px;
+}
+.infoo h5{
+
+    color: #5cd615;
+    letter-spacing: 1px;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 10px;
+}
+.infoo h5 span{
+    color: #ebebeb;
+    letter-spacing: 1px;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 10px;
+    letter-spacing: 2px;
+}
+.infoo h4 span{
+    color: #ebebeb;
+    letter-spacing: 1px;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 10px;
+    letter-spacing: 2px;
+}
